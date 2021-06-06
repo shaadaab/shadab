@@ -1,0 +1,415 @@
+/* #3897D3 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 8px 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.navbar .nav-list li a {
+  color: #3897d3;
+  font-size: 21px;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-list li a:hover {
+  color: #0b608a;
+}
+.navbar .nav-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar-btn {
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: 20%;
+  top: 55px;
+}
+
+.line {
+  width: 30px;
+  background-color: #3897d3;
+  height: 4px;
+  margin: 4px 3px;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 100px;
+  margin: auto;
+}
+
+.home {
+  display: flex;
+  height: 100vh;
+  color: black;
+  min-height: 500px;
+  font-family: sans-serif;
+  margin: auto;
+  width: 100%;
+}
+
+.home .max-width {
+  margin: auto;
+  width: 100%;
+}
+
+.home .content .heading {
+  font-size: 60px;
+  font-weight: 600;
+  margin: auto;
+  font-family: sans-serif;
+  width: 100%;
+  color: rgb(43, 39, 39);
+}
+
+.home .content .heading2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: auto;
+  font-family: sans-serif;
+  width: 50%;
+  color: rgb(43, 39, 39);
+}
+.home .content .heading3 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: auto;
+  font-family: sans-serif;
+  width: 50%;
+  color: rgb(43, 39, 39);
+}
+
+.home .content .paragraph {
+  font-size: 37px;
+  margin: auto;
+  font-weight: 300;
+  font-family: sans-serif;
+  line-height: 35px;
+  color: rgb(43, 39, 39);
+}
+
+
+@media (max-width: 792px) {
+  .home .max-width {
+    margin:auto;
+  }
+}
+
+@media (max-width: 792px) {
+  .max-width {
+    padding: 0 40px;
+    
+  }
+
+  .navbar-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .navbar .nav-list {
+    position: fixed;
+    height: 40vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 110px;
+    transition: all 0.4s ease;
+  }
+
+  .navbar .nav-list.active {
+    left: 0%;
+  }
+  .navbar .nav-list li {
+    display: block;
+  }
+  .navbar .nav-list li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 19pxpx;
+  }
+}
+
+.home .content .heading {
+  font-size: 60px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 110px;
+}
+.home .content .heading2 {
+  font-size: 50px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px
+}
+.home .content .heading3 {
+  font-size: 50px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px
+}
+.home .content .paragraph {
+  font-size: 33px;
+}
+
+.home .content .subhead {
+  font-size: 19px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.home .content .subhead3 {
+  font-size: 19px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 792px) {
+  .home .content .heading {
+    font-size: 40px;
+    margin: auto;
+    width: 70%;
+    margin-top: 110px;
+  }
+
+  
+  .home .content .heading2 {
+    font-size: 40px;
+    margin: auto;
+    width: 88%;
+    margin-top: 30px;
+  }
+  .home .content .heading3 {
+    font-size: 40px;
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+  }
+  
+  .home .content .thus a{
+    font-size: 20px;
+  } 
+
+  .home .content .paragraph {
+    font-size: 20px;
+    margin: auto;
+    width: 20%;
+    font-weight:600 ;
+  }
+
+  .home .content .subhead {
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    font-weight: 400;
+  }
+  .home .content .subhead2 {
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  .home .content .subhead3 {
+    font-size: 20px;
+    margin: auto;
+    width: 70%;
+    font-weight: 400;
+  }
+
+  .dash {
+    border: 3px solid #3897d3;
+  }
+
+  .footer{
+    font-size: 15px;
+  }
+
+  .points li {
+    font-size: 18px;
+    line-height: 25px;    
+    width: 90%;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  div.content{
+    width: 100%;
+  }
+ul{
+  width: 131%;
+}
+
+.icn{
+  text-align: justify;
+  margin: auto;
+  width: 50%;
+}
+ul.icn{
+  margin-bottom: 40px;
+}
+
+
+}
+
+.dash {
+  border: 3px solid #3897d3;
+  width: 50%;
+  margin: auto;
+  width: 80px;
+  margin-top: 10px;
+}
+
+.brk{
+  border: 2px dashed black;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width:110%;
+  text-align: center;
+}
+
+.home .content a {
+  display: inline-block;
+  background: #ffffff;
+  color: #3897d3;
+  font-size: 29px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.home .content a:hover {
+  color: #0b608a;
+  background: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(43, 39, 39);
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+div.points {
+  font-size: 29px;
+  margin: auto;
+  font-weight: 300;
+  font-family: sans-serif;
+  line-height: 35px;
+  color: rgb(43, 39, 39);
+  width: 60%;
+}
+
+div.gallery {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+.gallery img {
+  border: 2px solid rgb(0, 0, 0);
+}
+div.gallery:hover {
+  border: 2px solid white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.gallery video {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+
+div.gallery video {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .images {
+    flex-direction: column;
+  }
+
+  .videos {
+    flex-direction: column;
+  }
+
+}
+
+.responsive {
+  padding: 15 20px;
+  width: 80%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ .icn li{
+   margin:auto;
+   font-family: sans-serif;
+   font-weight:bold;
+   list-style: none;
+   text-align: center;
+
+ }
+
+ ul.icn{
+   margin-bottom: 40px;
+ }
+
