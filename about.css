@@ -157,7 +157,7 @@
   margin: auto;
   width: 50%;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 140px;
 }
 .home .content .heading2 {
   font-size: 50px;
@@ -275,6 +275,7 @@ ul{
 ul.icn{
   margin-bottom: 40px;
 }
+
 
 
 }
@@ -413,3 +414,6 @@ div.gallery video {
    margin-bottom: 40px;
  }
 
+ img{
+  width: 190px;
+}
