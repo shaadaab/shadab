@@ -51,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .max-width {
   max-width: 1300px;
@@ -118,7 +118,7 @@
 
 @media (max-width: 792px) {
   .max-width {
-    padding: 0 40px;
+    padding: 0 50px;
     
   }
 
@@ -260,6 +260,14 @@
     font-weight: 600;
   }
 
+  .points1 li {
+    font-size: 18px;
+    line-height: 25px;    
+    width: 90%;
+    text-align: center;
+    font-weight: 600;
+  }
+
   div.content{
     width: 100%;
   }
@@ -330,6 +338,17 @@ div.points {
   line-height: 35px;
   color: rgb(43, 39, 39);
   width: 60%;
+}
+
+div.points1 {
+  font-size: 29px;
+  margin: auto;
+  font-weight: 300;
+  font-family: sans-serif;
+  line-height: 35px;
+  color: rgb(43, 39, 39);
+  width: 60%;
+  display: contents;
 }
 
 div.gallery {
@@ -412,6 +431,7 @@ div.gallery video {
 
  ul.icn{
    margin-bottom: 40px;
+   text-align: center;
  }
 
  img{
