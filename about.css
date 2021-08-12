@@ -254,10 +254,11 @@
 
   .points li {
     font-size: 18px;
-    line-height: 25px;    
-    width: 90%;
+    line-height: 25px;
+    width: 100%;
     text-align: left;
     font-weight: 600;
+    margin-left: -20px;
   }
 
   .points1 li {
@@ -272,7 +273,7 @@
     width: 100%;
   }
 ul{
-  width: 131%;
+  width: 140%;
 }
 
 .icn{
