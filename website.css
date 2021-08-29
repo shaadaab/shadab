@@ -159,7 +159,6 @@ img{
 }
 
 .home .content .paragraph {
-  font-weight: 600;
   font-size: 33px;
 }
 
@@ -210,9 +209,7 @@ img{
     transition: all 0.3s ease;
     text-decoration: underline;
   }
-  div.thus{
-    font-weight: 600;
-  }
+  
 }
 
 .dash {
