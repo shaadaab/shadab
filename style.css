@@ -148,7 +148,6 @@
 
   .home .content .paragraph {
     font-size: 20px;
-    /* font-weight: 600; */
   }
 
   .home .content .paragraph .thus{
@@ -156,8 +155,7 @@
   }
 
   .content .paragraph .thus a{
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 25px;
   }
 
   .dash {
